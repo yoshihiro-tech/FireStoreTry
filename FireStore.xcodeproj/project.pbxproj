@@ -3,19 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D417376ED9563B724C685E4 /* Pods_FireStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7517F790FC54ADA174371EF /* Pods_FireStore.framework */; };
 		964266EE25484019007A57FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964266ED25484019007A57FA /* AppDelegate.swift */; };
 		964266F025484019007A57FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964266EF25484019007A57FA /* SceneDelegate.swift */; };
 		964266F225484019007A57FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964266F125484019007A57FA /* ViewController.swift */; };
 		964266F525484019007A57FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964266F325484019007A57FA /* Main.storyboard */; };
 		964266F72548401D007A57FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 964266F62548401D007A57FA /* Assets.xcassets */; };
 		964266FA2548401D007A57FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964266F82548401D007A57FA /* LaunchScreen.storyboard */; };
+		9642670625484350007A57FA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9642670525484350007A57FA /* LoginViewController.swift */; };
+		9642672225484C7E007A57FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9642672125484C7E007A57FA /* GoogleService-Info.plist */; };
+		964267262549C3C0007A57FA /* CheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964267252549C3C0007A57FA /* CheckViewController.swift */; };
+		9642672A254B1D6D007A57FA /* AnswersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96426729254B1D6D007A57FA /* AnswersModel.swift */; };
+		9642672E254C714C007A57FA /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9642672D254C714C007A57FA /* CommentViewController.swift */; };
+		96426731254CEFBB007A57FA /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96426730254CEFBB007A57FA /* CommentModel.swift */; };
+		96E56631254F08C60029CE0A /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E5662F254F08C60029CE0A /* CustomCell.swift */; };
+		96E56632254F08C60029CE0A /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96E56630254F08C60029CE0A /* CustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28D5399A258E548BCFB5EA5D /* Pods-FireStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireStore.release.xcconfig"; path = "Target Support Files/Pods-FireStore/Pods-FireStore.release.xcconfig"; sourceTree = "<group>"; };
 		964266EA25484019007A57FA /* FireStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		964266ED25484019007A57FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		964266EF25484019007A57FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,16 @@
 		964266F62548401D007A57FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		964266F92548401D007A57FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		964266FB2548401D007A57FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9642670525484350007A57FA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9642672125484C7E007A57FA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		964267252549C3C0007A57FA /* CheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckViewController.swift; sourceTree = "<group>"; };
+		96426729254B1D6D007A57FA /* AnswersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersModel.swift; sourceTree = "<group>"; };
+		9642672D254C714C007A57FA /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		96426730254CEFBB007A57FA /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
+		96E5662F254F08C60029CE0A /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		96E56630254F08C60029CE0A /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		BD5CF464009F2A309EC755DE /* Pods-FireStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireStore.debug.xcconfig"; path = "Target Support Files/Pods-FireStore/Pods-FireStore.debug.xcconfig"; sourceTree = "<group>"; };
+		C7517F790FC54ADA174371EF /* Pods_FireStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D417376ED9563B724C685E4 /* Pods_FireStore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		669DD1FCFE559DF8008B2424 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD5CF464009F2A309EC755DE /* Pods-FireStore.debug.xcconfig */,
+				28D5399A258E548BCFB5EA5D /* Pods-FireStore.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		79267FF976A0535980F6B1CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7517F790FC54ADA174371EF /* Pods_FireStore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		964266E125484019007A57FA = {
 			isa = PBXGroup;
 			children = (
 				964266EC25484019007A57FA /* FireStore */,
 				964266EB25484019007A57FA /* Products */,
+				669DD1FCFE559DF8008B2424 /* Pods */,
+				79267FF976A0535980F6B1CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +98,37 @@
 			children = (
 				964266ED25484019007A57FA /* AppDelegate.swift */,
 				964266EF25484019007A57FA /* SceneDelegate.swift */,
-				964266F125484019007A57FA /* ViewController.swift */,
+				96426728254B1D53007A57FA /* Model */,
+				964267032548432A007A57FA /* Controller */,
 				964266F325484019007A57FA /* Main.storyboard */,
 				964266F62548401D007A57FA /* Assets.xcassets */,
 				964266F82548401D007A57FA /* LaunchScreen.storyboard */,
 				964266FB2548401D007A57FA /* Info.plist */,
+				9642672125484C7E007A57FA /* GoogleService-Info.plist */,
+				96E5662F254F08C60029CE0A /* CustomCell.swift */,
+				96E56630254F08C60029CE0A /* CustomCell.xib */,
 			);
 			path = FireStore;
+			sourceTree = "<group>";
+		};
+		964267032548432A007A57FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				964266F125484019007A57FA /* ViewController.swift */,
+				9642670525484350007A57FA /* LoginViewController.swift */,
+				964267252549C3C0007A57FA /* CheckViewController.swift */,
+				9642672D254C714C007A57FA /* CommentViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		96426728254B1D53007A57FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				96426729254B1D6D007A57FA /* AnswersModel.swift */,
+				96426730254CEFBB007A57FA /* CommentModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 964266FE2548401D007A57FA /* Build configuration list for PBXNativeTarget "FireStore" */;
 			buildPhases = (
+				E5E1356FB09E2250DE705418 /* [CP] Check Pods Manifest.lock */,
 				964266E625484019007A57FA /* Sources */,
 				964266E725484019007A57FA /* Frameworks */,
 				964266E825484019007A57FA /* Resources */,
+				4E8F453F50A1B4DF0C3CAA3C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +190,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96E56632254F08C60029CE0A /* CustomCell.xib in Resources */,
+				9642672225484C7E007A57FA /* GoogleService-Info.plist in Resources */,
 				964266FA2548401D007A57FA /* LaunchScreen.storyboard in Resources */,
 				964266F72548401D007A57FA /* Assets.xcassets in Resources */,
 				964266F525484019007A57FA /* Main.storyboard in Resources */,
@@ -132,13 +200,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4E8F453F50A1B4DF0C3CAA3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FireStore/Pods-FireStore-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FireStore/Pods-FireStore-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FireStore/Pods-FireStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5E1356FB09E2250DE705418 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FireStore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		964266E625484019007A57FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9642672E254C714C007A57FA /* CommentViewController.swift in Sources */,
+				96426731254CEFBB007A57FA /* CommentModel.swift in Sources */,
+				9642670625484350007A57FA /* LoginViewController.swift in Sources */,
+				9642672A254B1D6D007A57FA /* AnswersModel.swift in Sources */,
+				96E56631254F08C60029CE0A /* CustomCell.swift in Sources */,
 				964266F225484019007A57FA /* ViewController.swift in Sources */,
 				964266EE25484019007A57FA /* AppDelegate.swift in Sources */,
+				964267262549C3C0007A57FA /* CheckViewController.swift in Sources */,
 				964266F025484019007A57FA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +399,7 @@
 		};
 		964266FF2548401D007A57FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD5CF464009F2A309EC755DE /* Pods-FireStore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,12 +413,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yoshihiro.FireStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		964267002548401D007A57FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28D5399A258E548BCFB5EA5D /* Pods-FireStore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,7 +433,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yoshihiro.FireStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
